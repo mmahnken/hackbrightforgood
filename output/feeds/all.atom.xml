@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Hack(bright) for Good</title><link href="http://hackbrightforgood.herokuapp.com/" rel="alternate"></link><link href="http://hackbrightforgood.herokuapp.com/feeds/all.atom.xml" rel="self"></link><id>http://hackbrightforgood.herokuapp.com/</id><updated>2014-04-22T01:16:00+02:00</updated><entry><title>Advanced Computer Science Resources</title><link href="http://hackbrightforgood.herokuapp.com/advanced.html" rel="alternate"></link><updated>2014-04-22T01:16:00+02:00</updated><author><name>Meggie Mahnken</name></author><id>tag:hackbrightforgood.herokuapp.com,2014-04-22:advanced.html</id><summary type="html">&lt;h1&gt;Advanced Computer Science Resources&lt;/h1&gt;
+&lt;h3&gt;&lt;a href="http://12factor.net/"&gt;The Twelve Factor App&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Maintained by the folks at Heroku, this is a series of articles about a methodology for making web apps. This 12-factor methology addresses minimizing divergence between already-live code and developing code, the necessities of scaling up without restructuring, deploying on cloud platforms, and a lot more, all with less techno-babble and more technical details. &lt;/p&gt;
+&lt;h4&gt;More to come later this week.&lt;/h4&gt;</summary><category term="cs"></category><category term="deployment"></category><category term="heroku"></category></entry><entry><title>Web App Tutorials</title><link href="http://hackbrightforgood.herokuapp.com/tutuorials.html" rel="alternate"></link><updated>2014-04-22T01:16:00+02:00</updated><author><name>Meggie Mahnken</name></author><id>tag:hackbrightforgood.herokuapp.com,2014-04-22:tutuorials.html</id><summary type="html">&lt;h1&gt;Web Apps the Hackbright Way&lt;/h1&gt;
+&lt;p&gt;At Hackbright, we teach the microframework for Python web apps called Flask. Flask is a microframework because it doesn't come with a lot of the standard things that frameworks often come with, like an admin interface, an authentication system, an object relational mapper, a testing framework, and the list goes on. It's nice that Flask does not come with those things, because it lets beginner coders learn on their own about what's necessary and good and what is gross garbage.&lt;/p&gt;
+&lt;h2&gt;About Flask&lt;/h2&gt;
+&lt;p&gt;In a nutshell, Flask is a bunch python functions that have "route decorators" paired with dynamic templating powered by a thing called Jinja. &lt;/p&gt;
+&lt;p&gt;A route decorator lets you associate a function in python with a URL ending. In the following example, the route decorator is &lt;code&gt;@app.route('/mypics')&lt;/code&gt;.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nd"&gt;@app.route&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;/mypics&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;get_pics&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
+    &lt;span class="c"&gt;#do python to get all pictures&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;render_template&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;pictures.html&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;pictures&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;pictures&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;A user could then go to www.myapp.com/mypics and they would see the template called &lt;code&gt;pictures.html&lt;/code&gt;. This template knows what these pictures are because we passed it the pictures we obtained in the &lt;code&gt;get_pics()&lt;/code&gt; function in the &lt;code&gt;return&lt;/code&gt; statement. See where it says &lt;code&gt;pictures = pictures&lt;/code&gt;? &lt;/p&gt;
+&lt;p&gt;Anyways, it's a bit more complicated than all of that, as you may have guessed. But, if you'd like to give it a try, go &lt;a href="http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world"&gt;here&lt;/a&gt; and do the Hello World exercise (Part 1). &lt;/p&gt;
+&lt;p&gt;Next, do the same tutorial's &lt;a href="http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-iv-database"&gt;Part 2&lt;/a&gt; to learn about templates.&lt;/p&gt;
+&lt;h2&gt;Choose Your Own Flask Adventure&lt;/h2&gt;
+&lt;p&gt;Now that you have the basics down&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;go&lt;/span&gt; &lt;span class="n"&gt;forth&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="n"&gt;hack&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;But seriously, you can do whatever you want at this point. Hopefully you can see that the possibilities are limitless. Here are a mere 3 of them.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Continue with Miguel Grinberg's comprehensive tutorial of a Microblog (a.k.a. Twitter), but think of your own #hackbrightforgood theme to make it your own. You will learn how to store things in the SQLite database, how to make a profile page with Gravatar avatars, and implement a login system.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Prerequisites: debugging skills, ability to follow written directions carefully, basic command line knowledge&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Make a social-good themed to-do list application with Flask using Christian Fernandez's &lt;a href="http://chriszf.github.com/tipsy/"&gt;Tipsy Tutorial&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Prerequisites: debugging skills, ability to follow written directions carefully, basic command line knowledge, some knowledge of HTML&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Spread happiness and enable creativity by making an instaGIF generator using &lt;a href="http://zulko.github.io/blog/2014/01/23/making-animated-gifs-from-video-files-with-python/"&gt;this tutorial by Zulko&lt;/a&gt; or make your own instragram filters using &lt;a href="http://pypix.com/python/instagram-filters-python/"&gt;this tutorial by Ajay Kumar N&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Prerequisites: ability to make your own Flask templates and handlers, some intermediate HTML5 knowledge&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</summary><category term="python"></category><category term="application"></category><category term="tutorial"></category><category term="full-stack"></category></entry><entry><title>Schedule</title><link href="http://hackbrightforgood.herokuapp.com/schedule.html" rel="alternate"></link><updated>2014-04-20T12:00:00+02:00</updated><author><name>Meggie Mahnken</name></author><id>tag:hackbrightforgood.herokuapp.com,2014-04-20:schedule.html</id><summary type="html">&lt;h1&gt;Hack(bright) for Good Agenda&lt;/h1&gt;
+&lt;h2&gt;Saturday, May 3&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;10am - Welcome&lt;/li&gt;
+&lt;li&gt;10:15am - Keynote&lt;/li&gt;
+&lt;li&gt;10:30am - Everyone pitches ideas for social good!&lt;/li&gt;
+&lt;li&gt;11am - Form teams!&lt;/li&gt;
+&lt;li&gt;1pm - Lunch will be provided&lt;/li&gt;
+&lt;li&gt;2pm - Hack for good!&lt;/li&gt;
+&lt;li&gt;8pm - Go home!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Sunday, May 4&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;10am - Hack!&lt;/li&gt;
+&lt;li&gt;1pm - Lunch will be provided&lt;/li&gt;
+&lt;li&gt;2pm - Hack!&lt;/li&gt;
+&lt;li&gt;5pm - 60 second demos!&lt;/li&gt;
+&lt;li&gt;6:30pm - Judges award prizes! &lt;/li&gt;
+&lt;li&gt;6pm - Go home!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Prizes will include:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;AR.Drone for "Best use of Kloudless API" prize&lt;/li&gt;
+&lt;li&gt;All attendees receive:&lt;/li&gt;
+&lt;li&gt;Hack(bright) for Good tshirt&lt;/li&gt;
+&lt;li&gt;$1k in Kloudless credits&lt;/li&gt;
+&lt;/ul&gt;</summary><category term="schedule"></category><category term="info"></category></entry><entry><title>Full Stack Python Resources</title><link href="http://hackbrightforgood.herokuapp.com/beginners.html" rel="alternate"></link><updated>2014-04-20T01:23:00+02:00</updated><author><name>Meggie Mahnken</name></author><id>tag:hackbrightforgood.herokuapp.com,2014-04-20:beginners.html</id><summary type="html">&lt;h1&gt;Here are my go-to resources for beginners.&lt;/h1&gt;
+&lt;h3&gt;&lt;a href="http://www.fullstackpython.com/"&gt;Full Stack Python&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;This a series of textbook-esque articles about the "full stack"- it will help you understand servers, static assets, databases. Basically everything that makes a web app. It is like a who's who of technical jargon. So amazing.&lt;/p&gt;
+&lt;h3&gt;&lt;a href="http://docs.python-guide.org/en/latest/scenarios/scrape/"&gt;LXML Scraping in Python&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;This is what I used to learn how to do web scraping. More popular for scraping is the python library called Beautiful Soup. Remember that if you want dependable information recources, it's better to use an API. &lt;/p&gt;
+&lt;h3&gt;&lt;a href="http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world"&gt;Grinberg's Mega Tutuorial&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;This tutorial taught me so much of what I do on a daily basis as a web developer. I shudder to think of myself without it, actually. Each part of the tutorial is a different part of a web app (user login, comments, etc.) It's a Flask tutorial, meaning that it uses a python framework that organizes the big cloud of files that go to make an "app" into an MVC (model view controller) type structure that's easier to use/develop/understand. Hooray!&lt;/p&gt;
+&lt;h3&gt;&lt;a href="https://dash.generalassemb.ly/"&gt;Dash by GA&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;The most gorgeous, clear, yet still free tutorial on HTML/CSS. Made by General Assembly.&lt;/p&gt;</summary><category term="scraping"></category><category term="python"></category><category term="flask"></category><category term="tutorials"></category></entry></feed>

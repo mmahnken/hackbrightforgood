@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Hack(bright) for Good</title><link href="http://hackbrightforgood.herokuapp.com/" rel="alternate"></link><link href="http://hackbrightforgood.herokuapp.com/feeds/tutorials.atom.xml" rel="self"></link><id>http://hackbrightforgood.herokuapp.com/</id><updated>2014-04-22T01:16:00+02:00</updated><entry><title>Web App Tutorials</title><link href="http://hackbrightforgood.herokuapp.com/tutuorials.html" rel="alternate"></link><updated>2014-04-22T01:16:00+02:00</updated><author><name>Meggie Mahnken</name></author><id>tag:hackbrightforgood.herokuapp.com,2014-04-22:tutuorials.html</id><summary type="html">&lt;h1&gt;Web Apps the Hackbright Way&lt;/h1&gt;
+&lt;p&gt;At Hackbright, we teach the microframework for Python web apps called Flask. Flask is a microframework because it doesn't come with a lot of the standard things that frameworks often come with, like an admin interface, an authentication system, an object relational mapper, a testing framework, and the list goes on. It's nice that Flask does not come with those things, because it lets beginner coders learn on their own about what's necessary and good and what is gross garbage.&lt;/p&gt;
+&lt;h2&gt;About Flask&lt;/h2&gt;
+&lt;p&gt;In a nutshell, Flask is a bunch python functions that have "route decorators" paired with dynamic templating powered by a thing called Jinja. &lt;/p&gt;
+&lt;p&gt;A route decorator lets you associate a function in python with a URL ending. In the following example, the route decorator is &lt;code&gt;@app.route('/mypics')&lt;/code&gt;.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nd"&gt;@app.route&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;/mypics&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;get_pics&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
+    &lt;span class="c"&gt;#do python to get all pictures&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;render_template&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;pictures.html&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;pictures&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;pictures&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;A user could then go to www.myapp.com/mypics and they would see the template called &lt;code&gt;pictures.html&lt;/code&gt;. This template knows what these pictures are because we passed it the pictures we obtained in the &lt;code&gt;get_pics()&lt;/code&gt; function in the &lt;code&gt;return&lt;/code&gt; statement. See where it says &lt;code&gt;pictures = pictures&lt;/code&gt;? &lt;/p&gt;
+&lt;p&gt;Anyways, it's a bit more complicated than all of that, as you may have guessed. But, if you'd like to give it a try, go &lt;a href="http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world"&gt;here&lt;/a&gt; and do the Hello World exercise (Part 1). &lt;/p&gt;
+&lt;p&gt;Next, do the same tutorial's &lt;a href="http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-iv-database"&gt;Part 2&lt;/a&gt; to learn about templates.&lt;/p&gt;
+&lt;h2&gt;Choose Your Own Flask Adventure&lt;/h2&gt;
+&lt;p&gt;Now that you have the basics down&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;go&lt;/span&gt; &lt;span class="n"&gt;forth&lt;/span&gt; &lt;span class="ow"&gt;and&lt;/span&gt; &lt;span class="n"&gt;hack&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;But seriously, you can do whatever you want at this point. Hopefully you can see that the possibilities are limitless. Here are a mere 3 of them.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Continue with Miguel Grinberg's comprehensive tutorial of a Microblog (a.k.a. Twitter), but think of your own #hackbrightforgood theme to make it your own. You will learn how to store things in the SQLite database, how to make a profile page with Gravatar avatars, and implement a login system.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Prerequisites: debugging skills, ability to follow written directions carefully, basic command line knowledge&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Make a social-good themed to-do list application with Flask using Christian Fernandez's &lt;a href="http://chriszf.github.com/tipsy/"&gt;Tipsy Tutorial&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Prerequisites: debugging skills, ability to follow written directions carefully, basic command line knowledge, some knowledge of HTML&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Spread happiness and enable creativity by making an instaGIF generator using &lt;a href="http://zulko.github.io/blog/2014/01/23/making-animated-gifs-from-video-files-with-python/"&gt;this tutorial by Zulko&lt;/a&gt; or make your own instragram filters using &lt;a href="http://pypix.com/python/instagram-filters-python/"&gt;this tutorial by Ajay Kumar N&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Prerequisites: ability to make your own Flask templates and handlers, some intermediate HTML5 knowledge&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</summary><category term="python"></category><category term="application"></category><category term="tutorial"></category><category term="full-stack"></category></entry></feed>
