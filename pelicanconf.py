@@ -4,7 +4,6 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Meggie Mahnken'
 SITENAME = u'Hack(bright) for Good'
-SITEURL = ''
 
 TIMEZONE = 'Europe/Paris'
 
@@ -14,6 +13,8 @@ DEFAULT_LANG = u'py'
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
+
+THEME='notmyidea'
 
 # Blogroll
 LINKS =  (('Pelican', 'http://getpelican.com/'),
@@ -30,5 +31,10 @@ DEFAULT_PAGINATION = 1
 #RELATIVE_URLS = True
 
 EXTRA_TEMPLATES_PATHS = ['../pelican-themes']
+
+
+
+SITESUBTITLE='A Hackathon'
+
 
 
