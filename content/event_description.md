@@ -11,33 +11,35 @@ Summary: Schedule for #hackbrightforgood hackathon
 #[Hack(bright) for Good Agenda](https://www.eventbrite.com/e/hackbright-for-good-hackathon-tickets-10900592967)
 
 ###Saturday, May 3th
-10am - Welcome! Breakfast of Dynamo Donuts & Peet's Coffee will be served!
-10:15am - Keynote: "How To Hack Your Way Through Your First Hackathon - tips for newbies and perspective for pros" by Liz Howard
-10:30am - Everyone pitches ideas for social good!
-11am - Developers forms teams around ideas; beginners pick a tutorial to start or a team to join!
-1pm - Lunch! We'll have plenty of tacos from Red Rooster Tacos (completely gluten-free)!
-2pm - Hack for good!
-6pm - Dinner - We're bringing in local, delicious Indian food from Little Delhi!
-8pm - Go home!
+- 10am - Welcome! Breakfast of Dynamo Donuts & Peet's Coffee will be served!
+- 10:15am - Keynote: "How To Hack Your Way Through Your First Hackathon - tips for newbies and perspective for pros" by Liz Howard
+- 10:30am - Everyone pitches ideas for social good!
+- 11am - Developers forms teams around ideas; beginners pick a tutorial to start or a team to join!
+- 1pm - Lunch! We'll have plenty of tacos from Red Rooster Tacos (completely gluten-free)!
+- 2pm - Hack for good!
+- 6pm - Dinner - We're bringing in local, delicious Indian food from Little Delhi!
+- 8pm - Go home!
 
 ###Sunday, May 4th
-10am - Hack!
-12pm - Lunch will be provided!
-2pm - Hack!
-4pm - Supper! We'll have food from Pica Pica Maize Kitchen (completely gluten-free)!
-5pm - 60 second presentations!
-6:30pm - Judges award prizes! 
-6pm - Go home!
-Prizes Will Include:
-"Most Creative" prize from Akamai - an iPad!
-"Best use of Twilio API" prize from Twilio - a Chromecast and Twilio shirt!
-"Best use of Kloudless API" prize from Kloudless - an AR.Drone!
-"Most Scrappy" prize from SparkFun - one (1)  Inventor's Kit, two (2) Simon Soldering kits (with soldering irons) and two (2) Simon Tilt kits (w/o soldering irons)!
-O'Reilly books on Python!
-All Attendees Receive:
-Hack(bright) for Good tshirt
-$50 in Twilio credits
-$1k in Kloudless credits
+- 10am - Hack!
+- 12pm - Lunch will be provided!
+- 2pm - Hack!
+- 4pm - Supper! We'll have food from Pica Pica Maize Kitchen (completely gluten-free)!
+- 5pm - 60 second presentations!
+- 6:30pm - Judges award prizes! 
+- 6pm - Go home!
+
+###Prizes Will Include:
+- "Most Creative" prize from Akamai - an iPad!
+- "Best use of Twilio API" prize from Twilio - a Chromecast and Twilio shirt!
+- "Best use of Kloudless API" prize from Kloudless - an AR.Drone!
+- "Most Scrappy" prize from SparkFun - one (1)  Inventor's Kit, two (2) Simon Soldering kits (with soldering irons) and two (2) Simon Tilt kits (w/o soldering irons)!
+- O'Reilly books on Python!
+
+###All Attendees Receive:
+- Hack(bright) for Good tshirt
+- $50 in Twilio credits
+- $1k in Kloudless credits
 
 ###Hackathon Judges: 
 
