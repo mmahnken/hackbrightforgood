@@ -1,10 +1,10 @@
-Title: Resources for Beginners
-Date: 2014-04-20 1:23
-Tags: scraping, python, flask, tutorials
-Slug: beginners
+Title: The Mission of This Hackathon
+Date: 2014-05-02 11:13
+Tags: hackbrightgforgood, whitehat, mission
+Slug: whatisgood
 Category: What is "Good"?
 Authors: Meggie Mahnken
-Summary: Resources for beginners
+Summary: What does it even  mean to hack for good
 
 #Hacking for Good
 This hackathon has an extremely broad theme, and the organizers would like to encourage broad readings of what it means to "Hack" and what it means to "Hack for Good".
