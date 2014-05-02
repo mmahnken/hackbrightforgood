@@ -12,7 +12,7 @@ Use the disqus commenting section below to post your project ideas. Beginner cod
 
  - There will also be time to pitch ideas to the group on Saturday at 10:30am.
 
- ![img](theme/images/hackercat.jpg)
+ ![img](http://s3.roosterteeth.com/images/spartan890248585dbbcb99f.jpg)
 
 
 
