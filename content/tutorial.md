@@ -56,3 +56,6 @@ Happiness is good. If what you hack on makes other people happy... you're hackin
 	_Prerequisites: command line knowledge, ability to make your own Flask templates and handlers, some intermediate HTML5 knowledge_
 
 
+#Did Someone Say Ruby?
+Check out the [Rails Girls App Tutorial](http://guides.railsgirls.com/app/). It's a step by step Ruby on Rails tutorial for beginners by Vesa Vänskä of Helsinki.
+
