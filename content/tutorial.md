@@ -35,16 +35,24 @@ Now that you have the basics down
 
 But seriously, you can do whatever you want at this point. Hopefully you can see that the possibilities are limitless. Here are a mere 3 of them.
 
-+ Continue with Miguel Grinberg's comprehensive tutorial of a Microblog (a.k.a. Twitter), but think of your own #hackbrightforgood theme to make it your own. You will learn how to store things in the SQLite database, how to make a profile page with Gravatar avatars, and implement a login system.
+###Twitter-like Microblog in Flask
+Continue with Miguel Grinberg's comprehensive tutorial of a Microblog (a.k.a. Twitter), but think of your own #hackbrightforgood theme to make it your own. You will learn how to store things in the SQLite database, how to make a profile page with Gravatar avatars, and implement a login system.
 
  	_Prerequisites: debugging skills, ability to follow written directions carefully, basic command line knowledge_
 
-+ Make a social-good themed to-do list application with Flask using Christian Fernandez's [Tipsy Tutorial](http://chriszf.github.com/tipsy/).
+###To-Do List in Flask
+Make a social-good themed to-do list application with Flask using Christian Fernandez's [Tipsy Tutorial](http://chriszf.github.com/tipsy/).
 
  	_Prerequisites: debugging skills, ability to follow written directions carefully, basic command line knowledge, some knowledge of HTML_
 
-+ Spread happiness and enable creativity by making an instaGIF generator using [this tutorial by Zulko](http://zulko.github.io/blog/2014/01/23/making-animated-gifs-from-video-files-with-python/) or make your own instragram filters using [this tutorial by Ajay Kumar N](http://pypix.com/python/instagram-filters-python/) 
+###Instagram App 
+Spread happiness and enable creativity by  or make your own instragram filters using [this tutorial by Ajay Kumar N](http://pypix.com/python/instagram-filters-python/) 
 
- 	_Prerequisites: ability to make your own Flask templates and handlers, some intermediate HTML5 knowledge_
+ 	_Prerequisites: command line knowledge, ability to make your own Flask templates and handlers, intermediate HTML5 knowledge_
+
+###GIF Generator
+Happiness is good. If what you hack on makes other people happy... you're hackin' for good. That's my story and I'm sticking to it. If you slightly modify the files from [this tutorial by Zulko](http://zulko.github.io/blog/2014/01/23/making-animated-gifs-from-video-files-with-python/) to take some kind of user input, and then put it into a Flask app, you'd have an instaGIF generator for all to enjoy. 
+
+	_Prerequisites: command line knowledge, ability to make your own Flask templates and handlers, some intermediate HTML5 knowledge_
 
 
