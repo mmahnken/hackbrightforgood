@@ -9,7 +9,7 @@ Summary: What does it even  mean to hack for good
 #Hacking for Good
 This hackathon has an extremely broad theme, and the organizers would like to encourage broad readings of what it means to "Hack" and what it means to "Hack for Good".
 
-The shirts for the Hackathon have a [White Hat](http://en.wikipedia.org/wiki/White_hat_(computer_security)#History) on them, which has historically been used to symbolize computer security hackers that futz around in other people's stuff for "good" (often, to expose security vulnerabilities that companies should know about so that they can better protect the data of others') and not "bad" (stealing money/identities, changing other people's code without permission, not sharing code that could make other people's lives a lot easier).
+The shirts for the Hackathon have a [White Hat](http://en.wikipedia.org/wiki/White_hat_(computer_security)#History) on them. The White Hat has historically been used to symbolize computer security hackers that futz around in other people's stuff for "good" (often, to expose security vulnerabilities that companies should know about so that they can better protect the data of others') and not "bad" (a.k.a. Black Hat, i.e. stealing money/identities, changing other people's code without permission, not sharing code that could make other people's lives a lot easier).
 
 ![img](theme/images/tophat-invert.png)
 
