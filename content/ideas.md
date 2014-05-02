@@ -1,7 +1,7 @@
 Title: Share Project Ideas
-Date: 2014-04-22 1:16
-Tags: cs, deployment, heroku
-Slug: advanced
+Date: 2014-05-01 5:10
+Tags: hackathon, collaboration, 
+Slug: ideas
 Category: Project Idea Share
 Authors: Meggie Mahnken
 Summary: Everyone can post their ideas about projects to hack on here.
