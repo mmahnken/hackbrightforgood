@@ -25,7 +25,7 @@ LINKS =  (('Pelican', 'http://getpelican.com/'),
 SOCIAL = (('Hackbright Academy', 'https://twitter.com/Hackbright'),
        )
 
-DEFAULT_PAGINATION = 1
+DEFAULT_PAGINATION = 4
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True

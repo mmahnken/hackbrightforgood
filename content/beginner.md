@@ -15,9 +15,6 @@ This tutorial taught me so much of what I do on a daily basis as a web developer
 ###[Learn Python the Hard Way](http://learnpythonthehardway.org/book/preface.html)
 The ever-useful Learn Python the Hard Way. Do it once. Then do it twice. Then go on vacation. When you come back, do it again. 
 
-###[Dash by GA](https://dash.generalassemb.ly/)
-The most gorgeous, clear, yet still free tutorial on HTML/CSS. Made by General Assembly.
-
 ###[Project Euler](http://projecteuler.net/)
 A set of do-able word problems that are basically impossible (or sufficiently time-consuming) to solve using anything but computer programs. The first problem is "Find the sum of all the multiples of 3 or 5 below 1000." The get progressively harder after that, but in a linear fashion. 
 
@@ -26,5 +23,13 @@ You know git, that thing everyone's always using? It's like hitting save, but mo
 
 ###[LXML Scraping in Python](http://docs.python-guide.org/en/latest/scenarios/scrape/)
 This is what I used to learn how to do web scraping. More popular for scraping is the python library called Beautiful Soup. Remember that if you want dependable information recources, it's better to use an API. 
+
+##Front End Resources
+###[Dash by GA](https://dash.generalassemb.ly/)
+The most gorgeous, clear, yet still free tutorial on HTML/CSS. Made by General Assembly.
+
+###[Your First Multi-Screen Site by Google](https://developers.google.com/web/fundamentals/getting-started/your-first-multi-screen-site/)
+This is an encouraging "Getting Started" guide by Google for creating a modern front-end. To learn about the actual HTML/CSS behind clean content design and responsive design (CSS that adapts to different devices), check this out. 
+
 
 
