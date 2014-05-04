@@ -9,9 +9,9 @@ Summary: More info about goings on on Sunday May 4.
 #Mornin'!
 Hey everybody.
 
-At 11:00 a.m., brunch will arrive at HB HQ.
+At 11:15 a.m., brunch will arrive at HB HQ.
 
-At 11:15 we are going to make announcements about the following items:
+At 11:30 we are going to make announcements about the following items:
 
 + twilio credit codes 
 + schedule for Sunday (food!)
@@ -23,6 +23,7 @@ At 11:15 we are going to make announcements about the following items:
 If you plan to demo tonight for the judges (beginners and teams welcome!) comment on this thread by 4pm with the name of your team (or some other relevant identifier, like team members' names).
 
 ###UPDATE: You will have 2 minutes, instead of the previous 1 minute, to demo your project. Whoopie!
+
 
 
 
